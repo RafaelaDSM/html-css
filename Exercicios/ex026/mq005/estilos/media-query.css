@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breackpoints
+-------------------------------
+Smartphones pequenos: Até 480px
+Smartphones grandes: 481px - 576px
+Tablets pequenos: 577px - 768px
+Tablets grandes: 769px - 1024px
+Desktops padrão: 1025px - 1200px
+Desktops grandes: 1201px - acima 
+*/
+
+@media screen and (min-width: 769px) {
+    
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 769px;
+    }
+}
