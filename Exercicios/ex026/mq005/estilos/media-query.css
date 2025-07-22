@@ -12,7 +12,7 @@ Desktops padrão: 1025px - 1200px
 Desktops grandes: 1201px - acima 
 */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     
     span#burguer {
         display: none;
