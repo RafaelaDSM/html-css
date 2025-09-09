@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.conteiner {
+    background-color: lightsalmon;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+#iA {
+    order: 0;
+}
+
+#iB {
+    order: -2;
+}
+
+#iC {
+    order: 4;
+}
+
+#iD {
+    order: 8;
+}
+
+#iE {
+    order: 2;
+}
+
+#iF {
+    order: 0;
+}
+
+#iG {
+    order: -4;
+}

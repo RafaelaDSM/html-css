@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.conteiner {
+    background-color: lightsalmon;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+#iA {
+    
+}
+
+#iB {
+   align-self: auto; 
+}
+
+#iC {
+   align-self: flex-end; 
+}
+
+#iD {
+    
+}
+
+#iE {
+   align-self: center; 
+}
+
+#iF {
+   align-self: flex-start; 
+}
+
+#iG {
+   align-self: stretch; 
+}
